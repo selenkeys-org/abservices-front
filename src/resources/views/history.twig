@@ -1,0 +1,25 @@
+{% extends "templates/base.twig" %} {% block content %}
+    <section class="history why clearfix">
+        <div class="why-left">
+            <div class="presentation flex-center">
+                <div><h1>NOTRE HISTOIRE</h1> {% for paragraph in data.history_paragraphs %}
+                        <p>{{ paragraph }}</p> {% endfor %} </div>
+            </div>
+        </div>
+        <div class="why-right lazyload" data-bg="assets/img/history/Eddy-Billoire.jpg"></div>
+    </section>
+    <div class="blue-separator"></div>
+    <section class="timeline"><h1>DATES CLEES</h1>
+        <div class="timeline-container"> {% for event in data.timeline %}
+                <div>
+                    <div class="timeline-block {{ event.direction }}">
+                        <div class="marker"></div>
+                        <div class="timeline-content"><h3>{{ event.date }}</h3><span>{{ event.event }}</span></div>
+                    </div>
+                </div> {% endfor %} </div>
+    </section>
+    <div class="black-separator"></div>
+    <section class="clubs"><h1>Les clubs que nous soutenons</h1>
+        <div class="clubs-slider"> {% for slide in data.slides %} <img class="slide" src="{{ slide.path }}"
+                                                                       alt="{{ slide.alt }}"> {% endfor %} </div>
+    </section> {% endblock %}

@@ -1,0 +1,67 @@
+{
+  "title": "Hôtellerie - Restauration Services",
+  "menu": "hrs",
+  "short_title": "HR Services",
+  "slogan": "Souplesse, Expertise, Discretion",
+  "description": "Nous créons avec nos clients dans le secteur de l’hôtellerie et de la restauration des services adaptés à chacun. Nos clients sont contents du travail réalisé chaque jour par nos équipes, motivées et compétentes dans les différents hôtels et restaurants. L’équipe HRS est à la disposition de ses partenaires pour apporter des solutions modulables, flexibles et innovantes pour que les convives de ses clients aient plaisir à s’attabler ou à séjourner chez eux. Nos hommes, hôtes et hôtesses de prestige, gouvernant(e)s, femmes de chambre, bagagistes, voituriers, serveurs, chefs pâtissiers, cuisiniers, barman, réceptionniste, … œuvrent chaque jour dans le seul objectif de satisfaire les clients et garantir une qualité de services irréprochable. HRS apporte une solution performante aux hôtels et restaurants souhaitant externaliser le service dans leur établissement.",
+  "logo_url": "/assets/img/logos/hrs-logo.png",
+  "slides": [
+    "/assets/img/sliders/hrs/chef-cuisinier.jpg",
+    "/assets/img/sliders/hrs/chef-cuisinier-femme.jpg",
+    "/assets/img/sliders/hrs/femme-menage.jpg",
+    "/assets/img/sliders/hrs/hotellerie.jpg",
+    "/assets/img/sliders/hrs/patissier.jpg",
+    "/assets/img/sliders/hrs/serveur.jpg",
+    "/assets/img/sliders/hrs/serveur-2.jpg"
+  ],
+  "values_img": "/assets/img/why/chef-cuisinier-femme.jpg",
+  "values_presentation": "Veillant au confort et au bien-être de ses clients, nos équipes assurent un résultat irréprochable, en adéquation avec la qualité d'accueil des établissements haut de gamme.",
+  "values": [
+    {
+      "name": "Fournir un Conseil et un audit personnalisé",
+      "description": "Nos équipes étudient vos besoins pour répondre au mieux à vos attentes."
+    },
+    {
+      "name": "Garantir une performance et une qualité sans compromis",
+      "description": "Nos équipes sont réactives et veillent à vous assurer la qualité que vous exigez."
+    },
+    {
+      "name": "Gérer efficacement les ressources humaines",
+      "description": "HRS met en place des plannings réactifs, accorde une attention particulière à la conformité des embauches avec vérification immédiate des titres de séjour et adopte une stratégie de recrutement contrôléeet vérifiée."
+    }
+  ],
+  "slogan2": "HRS vous offre une prestation hôtelière-restauration globale",
+  "services_presentation": "",
+  "services": [
+    {
+      "name": "Souplesse de gestion",
+      "description": "Notre personnel et son encadrement sont disponible 7 jours 7, 24 heures sur 24. En cas d’absence, de maladie ou congés nous procédons au remplacement immédiat du salarié. Notre personnel est qualifié et adapté en fonction de vos exigences",
+      "image": "/assets/img/services/hrs/patissier.jpg"
+    },
+    {
+      "name": "Expertise de spécialistes",
+      "description": "Nos experts effectuerons un contrôle qualité des prestations. Nous conseillons et mettons en œuvre des procédures adaptées. Nous assurons des audits de qualité. Des contrôles surprise sont effectués par nos « clients mystère ».",
+      "image": "/assets/img/services/hrs/chef-cuisinier.jpg"
+    },
+    {
+      "name": "Grande flexibilité et réactivité",
+      "description": "Le personnel qui travaille chez vous est sous contrat annuel avec notre société. Nous pouvons intervenir dans des délais très brefs ou en cas d’urgence.",
+      "image": "/assets/img/services/hrs/serveur-2.jpg"
+    },
+    {
+      "name": "Personnel qualifié, sélectionné pour leurs compétences d'accueil et professionnalisme",
+      "description": "Notre personnel est issue des meilleures écoles hôtelières. Nous vous proposons des spécialistes adaptés : chefs de cuisine, commis, plongeurs, runners, chef de rang …",
+      "image": "/assets/img/services/hrs/chef-cuisinier-femme.jpg"
+    },
+    {
+      "name": "Discrétion et respect de votre clientèle",
+      "description": "Nos salariés ont une grande faculté d’adaptation et peuvent se substituer à votre personnel. Nous intégrons vos règles dans le respect et la discrétion.",
+      "image": "/assets/img/services/hrs/femme-menage.jpg"
+    },
+    {
+      "name": "Confiance et collaboration avec votre direction et vos équipes",
+      "description": "Nous programmons des réunions hebdomadaires avec les cadres de votre entreprise afin d’améliorer nos prestations en permanence.",
+      "image": "/assets/img/services/hrs/serveur.jpg"
+    }
+  ]
+}

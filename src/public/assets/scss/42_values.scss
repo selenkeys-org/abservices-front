@@ -1,0 +1,23 @@
+.values {
+  min-height: 100%;
+  padding: 5% 10%;
+  @media screen and (max-width: 768px) {
+    padding: 5% 5%;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 0;
+  }
+  background: no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .container {
+    padding: 30px;
+    background: rgba(#343434, .5);
+    h1, h2, h3, p {
+      color: #ffffff;
+    }
+  }
+}

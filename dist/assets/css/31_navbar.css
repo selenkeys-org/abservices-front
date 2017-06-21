@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/**
+ * A mixin which helps you to add depth to elements according to the Google Material Design spec:
+ * http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality
+ *
+ * Please note that the values given in the specification cannot be used as is. To create the same visual experience
+ * the blur parameter has to be doubled.
+ *
+ * Adapted from a LESS version at https://medium.com/@Florian/freebie-google-material-design-shadow-helper-2a0501295a2d
+ *
+ * Original Author: Florian Kutschera (@gefangenimnetz), Conceptboard GmbH (@conceptboardapp)
+ *
+ * Example usage:
+ *
+.card {
+  width: 95px;
+  height: 95px;
+  background: #f4f4f4;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  @include shadow(1);
+  &:hover, &:focus {
+    @include shadow(3);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+   }
+  &:active {
+    @include shadow(2);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+}
+*/
+.navigation {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 3000;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .navigation .brand {
+    float: left;
+    line-height: 60px;
+    font-size: 1.4em;
+    margin-left: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .navigation .brand a, .navigation .brand a:visited {
+      width: 141px;
+      color: #343434;
+      text-decoration: none;
+      font-size: 1.2rem; }
+    .navigation .brand img {
+      margin: 10px; }
+    @media screen and (max-width: 956px) {
+      .navigation .brand {
+        margin-left: 20px; } }
+
+nav {
+  float: right;
+  margin-right: 10%; }
+  @media screen and (max-width: 956px) {
+    nav {
+      margin-right: 0; } }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px; }
+    nav ul li.active a {
+      background: #00B5DB !important;
+      color: #f4f4f4 !important;
+      -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+              box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    nav ul li {
+      float: left;
+      position: relative; }
+      nav ul li a,
+      nav ul li a:visited {
+        display: block;
+        padding: 0 20px;
+        line-height: 60px;
+        background: #ffffff;
+        color: #343434;
+        text-decoration: none; }
+        nav ul li a:hover,
+        nav ul li a:visited:hover {
+          color: #00B5DB;
+          background: #f4f4f4; }
+        nav ul li a:not(:only-child):after,
+        nav ul li a:visited:not(:only-child):after {
+          padding-left: 4px;
+          content: ' ▾'; }
+      nav ul li ul {
+        -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+        nav ul li ul li {
+          min-width: 150px; }
+          nav ul li ul li a {
+            padding: 15px;
+            line-height: 20px; }
+
+@media screen and (min-width: 956px) {
+  .dropdown:hover .nav-dropdown {
+    display: block !important; } }
+
+.nav-dropdown {
+  z-index: 6;
+  position: absolute;
+  display: none; }
+  @media screen and (max-width: 956px) {
+    .nav-dropdown {
+      display: block !important; } }
+
+/* Mobile navigation */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ffffff;
+  height: 60px;
+  width: 60px; }
+
+@media only screen and (max-width: 956px) {
+  .nav-mobile {
+    display: block; }
+  nav {
+    width: 100%; }
+    nav ul {
+      display: none; }
+      nav ul li {
+        float: none; }
+        nav ul li a {
+          padding: 15px;
+          line-height: 20px; }
+        nav ul li ul li a {
+          padding-left: 30px; }
+  .nav-dropdown {
+    position: static; } }
+
+@media screen and (min-width: 956px) {
+  .nav-list {
+    display: block !important; } }
+
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0; }
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #343434;
+    position: absolute;
+    display: block;
+    content: '';
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; }
+  #nav-toggle span:before {
+    top: -10px; }
+  #nav-toggle span:after {
+    bottom: -10px; }
+  #nav-toggle.active span {
+    background-color: transparent; }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0; }
+    #nav-toggle.active span:before {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    #nav-toggle.active span:after {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+
+/*# sourceMappingURL=31_navbar.css.map */

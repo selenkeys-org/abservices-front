@@ -1,0 +1,65 @@
+{
+  "title": "E.N. Services",
+  "menu": "ens",
+  "short_title": "E.N. Services",
+  "slogan": "Réactivité, Efficacité, Porfessionnalisme",
+  "description": "En faisant appel à notre équipe, vous avez la garantie d’un nettoyage régulier et de qualité professionnelle. Plus de 50 agents d’entretien qualifiés, compétents et bien formés aux techniques de nettoyage pour une prestation de qualité avec un matériel spécialisé, et respectueux des règles hygiéniques et écologiques. De l’entretien quotidien des sols, vitrage et mobiliers, au nettoyage très méticuleux de matériel professionnel, ENS prend en charge l’intégralité de votre entretien ménager. Que ce soit pour votre domicile, bureau, commerces, hôtel ou restaurant, ENS est à votre service pour répondre à vos attentes. Au-delà de la prestation de services, faire appel à notre équipe ENS est un partenariat visant la garantie et la pérennité de votre activité.",
+  "logo_url": "/assets/img/logos/ens-logo.png",
+  "slides": [
+    "/assets/img/sliders/ens/entretien-bureaux.jpg",
+    "/assets/img/sliders/ens/entretien-chantiers.jpg",
+    "/assets/img/sliders/ens/entretien-domicile.jpg",
+    "/assets/img/sliders/ens/entretien-domicile-2.jpg",
+    "/assets/img/sliders/ens/entretien-parties-communes.jpg",
+    "/assets/img/sliders/ens/nettoyage-vitres.jpg"
+  ],
+  "values_img": "/assets/img/why/entretien-domicile.jpg",
+  "values_presentation": "De taille humaine, ENS soigne ses offres et vous garantit une prestation de ménage de qualité ainsi que le maintien de l’hygiène et de la propreté de vos lieux avec efficacité, sans vous en soucier.",
+  "values": [
+    {
+      "name": "Un savoir-faire professionnel",
+      "description": ""
+    },
+    {
+      "name": "Un personnel motivé et efficace",
+      "description": ""
+    },
+    {
+      "name": "Le contrôle & suivi continus",
+      "description": ""
+    },
+    {
+      "name": "Une réactivité & disponibilité immédiate",
+      "description": ""
+    }
+  ],
+  "slogan2": "Nous répondons à toutes vos attentes",
+  "services_presentation": "",
+  "services": [
+    {
+      "name": "Nettoyage de bureaux",
+      "description": "Nous offrons des Prestations d’entretien journalières, hebdomadaires ou mensuelles. Notre personnel qualifié intervient dans vos locaux avec nos matériels et produits d’entretien.",
+      "image": "/assets/img/services/ens/entretien-bureaux.jpg"
+    },
+    {
+      "name": "Ménage à domicile",
+      "description": "Les prestations sont sur demande ou périodiques. Notre personnel qualifié intervient dans vos locaux avec ou sans nos matériels et produits d’entretien.",
+      "image": "/assets/img/services/ens/entretien-domicile.jpg"
+    },
+    {
+      "name": "Nettoyage des vitreries",
+      "description": "Nous proposons des Prestations, hebdomadaires ou mensuelles. Le cout d’intervention est à partir de 20€ par mois.",
+      "image": "/assets/img/services/ens/nettoyage-vitres.jpg"
+    },
+    {
+      "name": "Prestations exceptionnelles (nettoyage après un sinistre, fin de chantier, …)",
+      "description": "Décontamination après incendie, élimination des suies, sécurisation bâtiment. Nettoyage final fin de chantier avant réception. Evacuation des déchets stockés en zone privée vers un centre de recyclage agrée.",
+      "image": "/assets/img/services/ens/entretien-chantiers.jpg"
+    },
+    {
+      "name": "Entretien des parties communes",
+      "description": "Nous offrons des Prestations d’entretien journalières, hebdomadaires ou mensuelles. Nous procédons au nettoyage des parties communes : cage escalier, ascenseurs, Hall d’accueil, parking, caves …",
+      "image": "/assets/img/services/ens/entretien-parties-communes.jpg"
+    }
+  ]
+}

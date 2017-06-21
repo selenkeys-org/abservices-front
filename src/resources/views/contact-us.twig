@@ -1,0 +1,38 @@
+{% extends 'templates/base.twig' %} {% block content %}
+    <section class="contact-us">
+        <div class="secTitle"><h1 class="mainTitle">Nous Contacter</h1>
+            <p>{{ data.content }}</p></div>
+        <div class="secContent grid-3-small-1 has-gutter">
+            <div class="contactForm two-thirds">
+                <form method="post" action="#" autocomplete="off">
+                    <div class="grid has-gutter">
+                        <div><input type="text" placeholder="Votre nom *" value="" id="name" name="name" required></div>
+                        <div><input type="text" placeholder="Votre addesse email *" value="" id="email" name="email"
+                                    required></div>
+                    </div>
+                    <div class="grid has-gutter">
+                        <div><input type="text" placeholder="Votre site Web" value="" id="website" name="website"></div>
+                        <div><input type="text" placeholder="Sujet *" value="" id="subject" name="subject" required>
+                        </div>
+                    </div>
+                    <textarea name="message" placeholder="Message *" id="message" cols="45" rows="10"></textarea><input
+                            class="btn" type="submit" id="submit" value="nous envoyer un message"></form>
+            </div>
+            <div class="contactInfo one-third">
+                <div class="cInfo"><h1>ABS - Assistance Business Services</h1>
+                    <ul>
+                        <li><i class="icon-phone"></i> Téléphone : + 33 9 83 42 05 83 (Prix d'un appel local)</li>
+                        <li><i class="icon-doc-text"></i> Fax : + 33 99 99 99 99 99</li>
+                        <li><i class="icon-mail"></i> Email : contact@abserv.fr</li>
+                        <li><i class="icon-address"></i> Adresse : 1234 Street Road, City Name IN 567 890.</li>
+                    </ul>
+                </div>
+                <div class="wInfo"><h1>Horaires administratif</h1>
+                    <ul>
+                        <li>Disponible 7 jours sur 7, 24h sur 24</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

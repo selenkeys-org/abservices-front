@@ -1,0 +1,22 @@
+[
+  {
+    "id": 4,
+    "designation": "customers",
+    "description": "Clients Satisfaits",
+    "base": 50,
+    "increment": 8,
+    "created_at": "2017-06-14 01:34:05",
+    "updated_at": "2017-06-15 14:42:17",
+    "current_value": 50
+  },
+  {
+    "id": 5,
+    "designation": "collabs",
+    "description": "Nombre de Collaborateurs",
+    "base": 450,
+    "increment": 9,
+    "created_at": "2017-06-14 01:34:05",
+    "updated_at": "2017-06-15 14:42:50",
+    "current_value": 450
+  }
+]

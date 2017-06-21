@@ -1,0 +1,74 @@
+{% extends 'templates/base.twig' %}
+{% block content %}
+    <section class="company-header">
+        <div class="company-container">
+            <h1>{{ data.title }}</h1>
+            <h4>{{ data.slogan }}</h4>
+            <div class="grid">
+                <div class="one-quarter company-logo flex-center">
+                    <img class="lazyload" data-src="{{ base_url }}{{ data.logo_url }}" alt="company logo">
+                </div>
+                <div class="who-company flex-center">
+                    <div>
+                        <h2>qui sommes-nous ?</h2>
+                        <p>{{ data.description }}</p>
+                        <a class="specialBtn" href="/contact-us"><i class="icon-mail"></i>
+                            <h3>Nous Contacter</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-center">
+            <div class="company-slider" style="">
+                {% for slide in data.slides %}
+                    <img class="lazyload" data-src="{{ slide }}">
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <div class="blue-separator"></div>
+    <section class="why clearfix">
+        <div class="why-left">
+            <div class="presentation flex-center">
+                <div>
+                    <h1>POURQUOI NOUS CHOISIR ?</h1>
+                    <p>{{ data.values_presentation }}</p>
+                </div>
+            </div>
+            <div class="reasons flex-center">
+                <div class="grid-2-small-2 has-gutter-l">
+                    {% for value in data.values %}
+                        <div class="reason">
+                            <h3>{{ value.name }}</h3>
+                            <p>{{ value.description }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="why-right lazyload" data-bg="{{ data.values_img }}"></div>
+    </section>
+    <div class="black-separator"></div>
+    <section class="companies-slogan flex-center">
+        <div>
+            <p>Pourquoi <i class="circle icon-heart"></i> {{ data.short_title }}</p>
+            <h4>{{ data.slogan2 }}</h4>
+        </div>
+    </section>
+    <div class="black-separator"></div>
+    <section class="services">
+        <div class="title"><h1>Nos prestations</h1></div>
+        <div class="services-container grid-3-small-2 has-gutter-l">
+            {% for service in data.services %}
+                <div class="service">
+                    <div><img class="lazyload" data-src="{{ service.image }}"></div>
+                    <div class="description">
+                        <h2>{{ service.name }}</h2>
+                        <p>{{ service.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

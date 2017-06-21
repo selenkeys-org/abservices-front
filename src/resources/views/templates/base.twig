@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> {% include "partials/header.twig" %}
+    <noscript>
+        <style>
+            .cs-loader {
+                visibility: hidden
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+<div id="cs-loader" class="cs-loader">
+    <div class="cs-loader-inner">
+        <label>●</label><label>●</label><label>●</label><label>●</label><label>●</label><label>●</label>
+    </div>
+</div>
+
+{% include "partials/navigation.twig" %}
+
+{% block content %}
+{% endblock %}
+
+{% include "partials/footer.twig" %}
+{% include "partials/copyright.twig" %}
+{% include "partials/scripts.twig" %}
+
+</body>
+</html>

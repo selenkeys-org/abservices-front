@@ -1,0 +1,42 @@
+.hero {
+  height: calc(100vh - 60px);
+  .slick-track, .slick-list, .hero-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-slider {
+    margin-bottom: 0;
+    .hero-slides {
+      background: url(../img/sliders/home/prestataire-services.jpg) no-repeat center top;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .company-slogan {
+        width: 100%;
+        text-align: center;
+        background: rgba(whitesmoke, .6);
+      }
+      .title {
+        font-size: 2.6rem;
+        span {
+          font-size: 1.4rem;
+        }
+      }
+      .slogan {
+        text-align: center;
+        color: #343434;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+  }
+  .slick-dots {
+    bottom: 0;
+  }
+}

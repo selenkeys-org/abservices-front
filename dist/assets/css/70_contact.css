@@ -1,0 +1,52 @@
+.contact-us {
+  padding: 5% 15%; }
+  .contact-us .secTitle {
+    width: 65%; }
+    @media screen and (max-width: 991px) {
+      .contact-us .secTitle {
+        width: 80%; } }
+    @media screen and (max-width: 767px) {
+      .contact-us .secTitle {
+        width: 100%; } }
+  .contact-us ul, .contact-us li {
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    color: #999999;
+    font-size: 13px;
+    line-height: 26px; }
+  .contact-us h1 {
+    text-align: left;
+    font-size: 1.2rem; }
+  .contact-us h2 {
+    font-size: 1.1rem; }
+
+#file-upload {
+  position: absolute;
+  left: -9999px; }
+
+label[for="file-upload"] {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #f2f2f2;
+  padding: 12px;
+  display: inline-block;
+  background: #008ba8;
+  cursor: pointer; }
+  label[for="file-upload"]:hover {
+    background: #00768f; }
+
+#filename {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 13px;
+  color: #f2f2f2;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #00b5db; }
+
+/*# sourceMappingURL=70_contact.css.map */

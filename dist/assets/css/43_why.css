@@ -1,0 +1,35 @@
+.why {
+  min-height: 100%; }
+  .why .why-left {
+    width: 62%;
+    min-height: 100vh;
+    float: left; }
+    @media screen and (max-width: 567px) {
+      .why .why-left {
+        float: none;
+        width: 100% !important; } }
+    .why .why-left .presentation, .why .why-left .reasons {
+      padding: 0 20%; }
+      @media screen and (max-width: 888px) {
+        .why .why-left .presentation, .why .why-left .reasons {
+          padding: 0 5%; } }
+    .why .why-left .presentation {
+      min-height: 40vh;
+      background: #343434; }
+      .why .why-left .presentation h1 {
+        color: #FFFFFF; }
+    .why .why-left .reasons {
+      min-height: 60vh;
+      background: #f2f2f1; }
+  .why .why-right {
+    width: 38%;
+    min-height: 100vh;
+    background: no-repeat center center;
+    background-size: cover;
+    float: right; }
+    @media screen and (max-width: 567px) {
+      .why .why-right {
+        float: none;
+        width: 100% !important; } }
+
+/*# sourceMappingURL=43_why.css.map */

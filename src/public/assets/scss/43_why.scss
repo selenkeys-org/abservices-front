@@ -1,0 +1,46 @@
+$first-breakpoint: 888px;
+$second-breakpoint: 567px;
+
+.why {
+  min-height: 100%;
+  .why-left {
+    width: 62%;
+    min-height: 100vh;
+    float: left;
+    @media screen and (max-width: 567px) {
+      float: none;
+      width: 100% !important;
+    }
+    .presentation, .reasons {
+      padding: 0 20%;
+      @media screen and (max-width: $first-breakpoint) {
+        padding: 0 5%;
+      }
+    }
+    .presentation {
+      min-height: 40vh;
+      background: #343434;
+      h1 {
+        color: #FFFFFF;
+      }
+    }
+    .reasons {
+      min-height: 60vh;
+      background: #f2f2f1;
+    }
+  }
+  .why-right {
+    width: 38%;
+    min-height: 100vh;
+    background: no-repeat center center;
+    background-size: cover;
+    float: right;
+
+    @media screen and (max-width: 567px) {
+      float: none;
+      width: 100% !important;
+    }
+  }
+}
+
+

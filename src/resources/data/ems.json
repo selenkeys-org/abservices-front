@@ -1,0 +1,77 @@
+{
+  "title": "Express Maintenance Services",
+  "menu": "ems",
+  "short_title": "EM Services",
+  "slogan": "Qualité, Professionnalisme, Confiance",
+  "description": "EMS s’organise autour des métiers de maintenance avec le souci permanent de votre satisfaction. L’équipe EMS met son savoir-faire, ses compétences, la disponibilité de ses techniciens sérieux, qualifiés et réactifs pour toute intervention dans les meilleurs délais. EMS est aussi spécialisée dans les prestations d’espaces verts. Nos experts, sensibles à la nature, sont à votre disposition pour embellir vos espaces et votre quotidien. EMS vous propose un ensemble de prestations de maintenance de qualité :",
+  "logo_url": "/assets/img/logos/ems-logo.png",
+  "slides": [
+    "/assets/img/sliders/ems/chantier-2.jpg",
+    "/assets/img/sliders/ems/outils.jpg",
+    "/assets/img/sliders/ems/chantier.jpg",
+    "/assets/img/sliders/ems/electricite.jpg",
+    "/assets/img/sliders/ems/maintenance-indistruelle.jpg",
+    "/assets/img/sliders/ems/outils-2.jpg",
+    "/assets/img/sliders/ems/plomberie.jpg",
+    "/assets/img/sliders/ems/superviseurs.jpg"
+  ],
+  "values_img": "/assets/img/why/chantier-2.jpg",
+  "values_presentation": "Le conseil sur l’offre de services la plus performante, économique, fiable et de qualité est le premier engagement d’EMS. ",
+  "values": [
+    {
+      "name": "La transparence ",
+      "description": ""
+    },
+    {
+      "name": "La qualité par l’excellence",
+      "description": ""
+    },
+    {
+      "name": "Le professionnalisme",
+      "description": ""
+    },
+    {
+      "name": "La confiance",
+      "description": ""
+    }
+  ],
+  "slogan2": "Nous sommes les plus performants",
+  "services_presentation": "",
+  "services": [
+    {
+      "name": "Chantiers",
+      "description": "Nous intervenons en second œuvre pour des prestations de remise en état, rénovation de bâtiments industriels, bureaux et habitation.",
+      "image": "/assets/img/services/ems/chantier.jpg"
+    },
+    {
+      "name": "Ouvriers Spécialisés ",
+      "description": "Nos interventions couvrent l’ensemble des besoins de second œuvre : peinture, sols, électricité, plomberie, carrelage, menuiserie …",
+      "image": "/assets/img/services/ems/chantier-2.jpg"
+    },
+    {
+      "name": "Electricité",
+      "description": "Nous procédons à la mise aux normes de vos bâtiments et habitations. Nous effectuons tous vos travaux d’electricité en courants forts et faibles.",
+      "image": "/assets/img/services/ems/electricite.jpg"
+    },
+    {
+      "name": "Menuiserie",
+      "description": "Nous intervenons pour la rénovation ou changement de vos huisseries : pose de nouvelles fenêtres, portes, encadrements, volets roulants …",
+      "image": "/assets/img/services/ems/outils.jpg"
+    },
+    {
+      "name": "Travaux divers",
+      "description": "Nos équipes effectuent tous vos travaux d’embellissement et de rénovation : plafonds, murs, accès extérieurs, serrurerie …",
+      "image": "/assets/img/services/ems/outils-2.jpg"
+    },
+    {
+      "name": "Plomberie",
+      "description": "Nous procédons à la rénovation, dépannage ou installation de tous vos réseaux d’eau et de gaz.",
+      "image": "/assets/img/services/ems/plomberie.jpg"
+    },
+    {
+      "name": "Supervision de travaux",
+      "description": "Nos chefs de chantiers contrôles et organisent vos chantiers. Ils encadrement nos ouvriers et surveillent les interventions dans le respect des règles de l’art.",
+      "image": "/assets/img/services/ems/superviseurs.jpg"
+    }
+  ]
+}

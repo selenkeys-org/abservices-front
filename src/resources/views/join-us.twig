@@ -1,0 +1,58 @@
+{% extends 'templates/base.twig' %} {% block content %}
+    <section class="contact-us">
+        <div class="secTitle"><h1 class="mainTitle">Nous Rejoindre</h1>
+            <p>{{ data.content }}</p></div>
+        <div class="secContent grid-3-small-1 has-gutter">
+            <div class="contactForm two-thirds">
+                <form method="post" action="#" enctype="multipart/form-data" autocomplete="off">
+                    <div class="grid has-gutter">
+                        <div><input type="text" placeholder="Votre nom *" value="" id="name" name="name" required></div>
+                        <div><input type="text" placeholder="Votre prénom *" value="" id="first_name" name="first_name"
+                                    required></div>
+                    </div>
+                    <div class="grid has-gutter">
+                        <div><input type="text" placeholder="Votre addesse email *" value="" id="email" name="email"
+                                    required></div>
+                        <div><input type="text" placeholder="Sujet *" value="" id="subject" name="subject" required>
+                        </div>
+                    </div>
+                    <div class="grid has-gutter">
+                        <div><input type="text" placeholder="Votre numéro de télephone *" value="" id="phone"
+                                    name="phone" required></div>
+                    </div>
+                    <div><h2>Filiale</h2>
+                        <p><i>Merci de sélectionner la filiale à laquelle vous souhaitez adresser votre candidature</i>
+                        </p>
+                        <div class="grid has-gutter">
+                            <div><input type="radio" name="filiale" id="gbs" checked="checked"><label for="gbs">G.B.
+                                    Sécurité</label></div>
+                            <div><input type="radio" name="filiale" id="ens"><label for="ens">E.N. Services</label>
+                            </div>
+                            <div><input type="radio" name="filiale" id="hrs"><label for="hrs">H.R. Services</label>
+                            </div>
+                            <div><input type="radio" name="filiale" id="ems"><label for="ems">E.M. Services</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="file-upload"><span id="filename">Ajouter votre CV</span><label for="file-upload">Télécharger<input
+                                    type="file" id="file-upload" name="cv"></label></div>
+                    <textarea name="message" placeholder="Message *" id="message" cols="45" rows="10"></textarea><input
+                            class="btn" type="submit" id="submit" value="postuler"></form>
+            </div>
+            <div class="contactInfo one-third">
+                <div class="cInfo"><h1>ABS - Assistance Business Services</h1>
+                    <ul>
+                        <li><i class="icon-phone"></i> Téléphone : +33 9 83 42 05 83 (Prix d’un appel local)</li>
+                        <li><i class="icon-doc-text"></i> Fax : +33 3 21 74 14 50</li>
+                        <li><i class="icon-mail"></i> Email : contact@abserv.fr</li>
+                        <li><i class="icon-address"></i> Adresse : 1234 Street Road, City Name IN 567 890.</li>
+                    </ul>
+                </div>
+                <div class="wInfo"><h1>Horaires administratif</h1>
+                    <ul>
+                        <li>Disponible 7 jours sur 7, 24h sur 24</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> {% endblock %}

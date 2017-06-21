@@ -1,0 +1,23 @@
+{
+  "name": "abs-frontend",
+  "description": "ABS website frontend",
+  "main": "index.js",
+  "authors": [
+    "Selen Keys",
+    "Mohamed Chams Eddin Mouedhen <chams-med@hotmail.fr>"
+  ],
+  "license": "AAL",
+  "keywords": [
+    "website",
+    "company",
+    "services"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.6.0",
+    "lazysizes": "^3.0.0",
+    "turbolinks5": "^5.0.3"
+  }
+}

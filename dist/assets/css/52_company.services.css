@@ -1,0 +1,88 @@
+/**
+ * A mixin which helps you to add depth to elements according to the Google Material Design spec:
+ * http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality
+ *
+ * Please note that the values given in the specification cannot be used as is. To create the same visual experience
+ * the blur parameter has to be doubled.
+ *
+ * Adapted from a LESS version at https://medium.com/@Florian/freebie-google-material-design-shadow-helper-2a0501295a2d
+ *
+ * Original Author: Florian Kutschera (@gefangenimnetz), Conceptboard GmbH (@conceptboardapp)
+ *
+ * Example usage:
+ *
+.card {
+  width: 95px;
+  height: 95px;
+  background: #f4f4f4;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  @include shadow(1);
+  &:hover, &:focus {
+    @include shadow(3);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+   }
+  &:active {
+    @include shadow(2);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+}
+*/
+.services {
+  background: #f2f2f1;
+  padding-top: 5%;
+  overflow: hidden; }
+  .services h1 {
+    text-transform: uppercase;
+    font-size: 26px; }
+  .services .services-container {
+    padding: 0 15% 5% 15%; }
+    @media screen and (max-width: 991px) {
+      .services .services-container {
+        padding: 0 11% 5% 11%; } }
+    @media screen and (max-width: 543px) {
+      .services .services-container {
+        padding: 0 6% 5% 6%; } }
+    .services .services-container .service {
+      -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+              box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      background: #FFFFFF;
+      margin-top: 30px;
+      min-height: 500px;
+      position: relative;
+      margin-right: 1em;
+      overflow: hidden; }
+      .services .services-container .service img {
+        width: 100%;
+        height: auto; }
+      .services .services-container .service .description {
+        padding: .5em;
+        top: 100%; }
+        .services .services-container .service .description h2 {
+          font-size: 1.1rem; }
+        .services .services-container .service .description p {
+          font-size: .8rem; }
+      .services .services-container .service:hover {
+        -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+                box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+        -webkit-transition: all .5s;
+        transition: all .5s; }
+        .services .services-container .service:hover .description {
+          position: absolute;
+          background: rgba(0, 181, 219, 0.8);
+          top: 0;
+          height: 100%;
+          -webkit-transition: top .5s;
+          transition: top .5s;
+          padding: 30px; }
+          .services .services-container .service:hover .description h2 {
+            color: #FFFFFF; }
+          .services .services-container .service:hover .description p {
+            color: #f2f2f2; }
+
+/*# sourceMappingURL=52_company.services.css.map */

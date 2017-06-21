@@ -1,0 +1,24 @@
+<header class="navigation" data-turbolinks-permanent>
+    <div class="brand">
+        <img class="lazyload" data-src="assets/img/abs-40x40.png" alt="ABS logo"><a href="#">AB Services</a>
+    </div>
+    <nav>
+        <div class="nav-mobile"><a href="#" id="nav-toggle"><span></span></a></div>
+        <!-- build:nav -->
+        <ul class="nav-list">
+            <li{% if data.menu == "home" %} class="active"{% endif %}><a href="/">accueil</a></li>
+            <li{% if data.menu == "history" %} class="active"{% endif %}><a href="/history">histoire</a></li>
+            <li class="dropdown"><a href="#">filiales</a>
+                <ul class="nav-dropdown">
+                    <li{% if data.menu == "gbs" %} class="active"{% endif %}><a href="gbs">GB Sécurité</a></li>
+                    <li{% if data.menu == "ens" %} class="active"{% endif %}><a href="ens">EN Services</a></li>
+                    <li{% if data.menu == "hrs" %} class="active"{% endif %}><a href="hrs">HR Services</a></li>
+                    <li{% if data.menu == "ems" %} class="active"{% endif %}><a href="ems">EM Services</a></li>
+                </ul>
+            </li>
+            <li{% if data.menu == "contact-us" %} class="active"{% endif %}><a href="/contact-us">nous contacter</a></li>
+            <li{% if data.menu == "join-us" %} class="active"{% endif %}><a href="/join-us">postuler</a></li>
+        </ul>
+        <!-- endbuild -->
+    </nav>
+</header>

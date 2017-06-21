@@ -1,0 +1,77 @@
+{
+  "title": "GB Sécurité",
+  "menu": "gbs",
+  "short_title": "GB Sécurité",
+  "slogan": "Conseiller, Protéger, Intervenir",
+  "description": "Leader dans le domaine de la sécurité en France, GB Services offre ses services aux particuliers et aux professionnels. GB Services propose une large gamme de prestations à sa clientèle grâce aux femmes et aux hommes expérimentés et formés aux respects des consignes de sécurité que composent ses équipes.",
+  "logo_url": "/assets/img/logos/gbs-logo.png",
+  "slides": [
+    "/assets/img/sliders/gbs/agent-securite-1.jpg",
+    "/assets/img/sliders/gbs/agent-patrouilleur.jpg",
+    "/assets/img/sliders/gbs/controle-acces-sites.jpg",
+    "/assets/img/sliders/gbs/telesurveillance.jpg",
+    "/assets/img/sliders/gbs/agent-securite-2.jpg",
+    "/assets/img/sliders/gbs/controle-filtrage-acces.jpg",
+    "/assets/img/sliders/gbs/maitre-chien.jpg",
+    "/assets/img/sliders/gbs/securite-evenementielle.jpg"
+  ],
+  "values_img": "/assets/img/why/controle-acces-sites.jpg",
+  "values_presentation": "GB Sécurité répond aux exigences de chaque prestation grâce à ses équipes professionnelles, réactives et discrètes (respect des consignes, preuve d’écoute et de courtoisie à toute sollicitation, disponibilité, discrétion…).",
+  "values": [
+    {
+      "name": "Conseiller ",
+      "description": "Nos clients pour leurs demandes et besoins en sécurité et sureté."
+    },
+    {
+      "name": "Protéger",
+      "description": "Le personnel, les hôtes, les biens et l’établissement du client."
+    },
+    {
+      "name": "Intervenir ",
+      "description": "24H/24, 7J/7 rapidement et efficacement."
+    }
+  ],
+  "slogan2": "Votre besoin est le nôtre",
+  "services": [
+    {
+      "name": "Surveillance humaine",
+      "description": "Un agent de sécurité contrôle visuellement les accès et périphéries du site. Nous appliquons et respectons les protocoles Vigi-Pirates.",
+      "image": "/assets/img/services/gbs/agent-patrouilleur.jpg"
+    },
+    {
+      "name": "Contrôle et filtrage d’accès",
+      "description": "Assisté d’un détecteur de Métal, un agent contrôle l’intégrité et l’identité des visiteurs ou personnels souhaitant entrer sur votre site.",
+      "image": "/assets/img/services/gbs/controle-acces-sites.jpg"
+    },
+    {
+      "name": "Gardiennage",
+      "description": "Nous surveillons et assurons la protection des personnes et des biens du site à sécuriser.",
+      "image": "/assets/img/services/gbs/agent-securite-1.jpg"
+    },
+    {
+      "name": "Sécurité incendie et secourisme",
+      "description": "Nous veillons au bon fonctionnement des installations anti-incendie. Nous portons assistance aux personnes en détresse (Premiers secours, défibrillateurs). Nous déclenchons les services de secours si besoin. (Pompiers, SAMU, SMUR).",
+      "image": "/assets/img/services/gbs/controle-filtrage-acces.jpg"
+    },
+    {
+      "name": "Conseil & Audit",
+      "description": "Nous évaluons les menaces et déterminons les besoins à mettre en œuvre pour optimiser la sécurité des personnes et des biens. Nous mettons en place les plans de prévention des risques.",
+      "image": "/assets/img/services/gbs/agent-securite-2.jpg"
+    },
+    {
+      "name": "Sécurité Evènementielle",
+      "description": "Nos agents sont formés pour assurer la gestion des foules et la sécurisation des espaces publics (Concerts, spectacles, zone commerciales …).",
+      "image": "/assets/img/services/gbs/securite-evenementielle.jpg"
+    },
+    {
+      "name": "Interventions et rondes",
+      "description": "Nous intervenons sur site pour procéder à la levée de doutes suite à un déclenchement d’alarme. Nous effectuons des rondes périodiques sur vos chantiers, zones commerciales et industrielles, habitations …",
+      "image": "/assets/img/services/gbs/telesurveillance.jpg"
+    },
+    {
+      "name": "Maître-chien",
+      "description": "Nous intervenons pour la dissuasion d’accès aux zones sensibles. Nous engageons les recherches de personnes. Nos chiens spécialement dressés procèdent à la recherche de colis suspects et explosifs.",
+      "image": "/assets/img/services/gbs/maitre-chien.jpg"
+    }
+  ]
+}

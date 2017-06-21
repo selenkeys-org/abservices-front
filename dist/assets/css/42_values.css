@@ -1,0 +1,18 @@
+.values {
+  min-height: 100%;
+  padding: 5% 10%;
+  background: no-repeat center top;
+  background-size: cover; }
+  @media screen and (max-width: 768px) {
+    .values {
+      padding: 5% 5%; } }
+  @media screen and (max-width: 425px) {
+    .values {
+      padding: 0; } }
+  .values .container {
+    padding: 30px;
+    background: rgba(52, 52, 52, 0.5); }
+    .values .container h1, .values .container h2, .values .container h3, .values .container p {
+      color: #ffffff; }
+
+/*# sourceMappingURL=42_values.css.map */

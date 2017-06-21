@@ -1,3 +1,15 @@
 # IDE Meta data
 /.idea/
 
+# dist directory
+# /dist/
+
+# node js modules
+/node_modules/
+
+# bower components
+/vendor_components/
+
+# Third party generated css
+/src/public/assets/scss/10-anormalize.scss
+/src/public/assets/scss/10-grillade.scss

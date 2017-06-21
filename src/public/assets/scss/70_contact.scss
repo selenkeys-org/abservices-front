@@ -1,0 +1,64 @@
+@import "libs/variables";
+
+.contact-us {
+  padding: 5% 15%;
+  .secTitle {
+    width: 65%;
+    @media screen and (max-width: $medium) {
+      width: 80%;
+    }
+    @media screen and (max-width: $small) {
+      width: 100%;
+    }
+  }
+  ul, li {
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    color: $color-medium-grey;
+    font-size: 13px;
+    line-height: 26px;
+  }
+  h1 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+}
+
+#file-upload {
+  position: absolute;
+  left: -9999px;
+}
+
+label[for="file-upload"] {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #f2f2f2;
+  padding: 12px;
+  display: inline-block;
+  background:darken(#00B5DB ,10%);
+  cursor: pointer;
+  &:hover {
+    background: darken(#00B5DB, 15%)
+  }
+}
+
+#filename {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 13px;
+  color: #f2f2f2;
+  float: left;
+  //width: 100px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  background: rgba(#00B5DB, 10%);
+
+}

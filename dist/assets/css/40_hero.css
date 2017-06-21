@@ -1,0 +1,37 @@
+.hero {
+  height: calc(100vh - 60px); }
+  .hero .slick-track, .hero .slick-list, .hero .hero-slider {
+    width: 100%;
+    height: 100%; }
+  .hero .hero-slider {
+    margin-bottom: 0; }
+    .hero .hero-slider .hero-slides {
+      background: url(../img/sliders/home/prestataire-services.jpg) no-repeat center top;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .hero .hero-slider .hero-slides .company-slogan {
+        width: 100%;
+        text-align: center;
+        background: rgba(245, 245, 245, 0.6); }
+      .hero .hero-slider .hero-slides .title {
+        font-size: 2.6rem; }
+        .hero .hero-slider .hero-slides .title span {
+          font-size: 1.4rem; }
+      .hero .hero-slider .hero-slides .slogan {
+        text-align: center;
+        color: #343434;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600; }
+  .hero .slick-dots {
+    bottom: 0; }
+
+/*# sourceMappingURL=40_hero.css.map */

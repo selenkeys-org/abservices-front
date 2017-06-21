@@ -1,0 +1,58 @@
+{
+  "title": "Notre histoire",
+  "menu": "history",
+  "history_paragraphs": [
+    "Chez le groupe AB la satisfaction des clients est une histoire de famille depuis 2008. A l'origine, la société est une entreprise de Sécurité qui conseille, protège et intervient principalement pour des professionnels. La même année, ENS, entité spécialisée dans le nettoyage voit le jour. A l'image de son fondateur, Eddy Billoire, dynamique et profondément humain, les deux sociétés se développent sur tout le Nord de la France, portées par la satisfaction de ses clients.",
+    "En 2010, pour répondre aux besoins de maintenance de ses clients et partenaires, Eddy Billoire élargie les services et crée EMS, spécialisée sur la maintenance en électricité, plomberie, peinture, carrelage, menuiserie...",
+    "Et 5 ans plus tard, le groupe se lance avec succès dans les services pour la restauration et l'hôtellerie avec sa nouvelle entité HRS. Aujourd'hui AB services et ses 4 filiales complémentaires réalise un chiffre d'affaires de 2,2 millions d'euros, à la confiance de ses clients, emploie en CDI près de 150 personnes et environ 150 en CDD."
+  ],
+  "timeline": [
+    {
+      "direction": "timeline-block-left",
+      "date": "2017",
+      "event": "Création du Holding A.B. Services"
+    },
+    {
+      "direction": "timeline-block-right",
+      "date": "2015",
+      "event": "Création de H.R. Services"
+    },
+    {
+      "direction": "timeline-block-left",
+      "date": "2010",
+      "event": "Création de E.M. Services"
+    },
+    {
+      "direction": "timeline-block-right",
+      "date": "2008",
+      "event": "Création de E.N. Services"
+    },
+    {
+      "direction": "timeline-block-left",
+      "date": "2008",
+      "event": "Création de G.B. Sécurité"
+    }
+  ],
+  "slides": [
+    {
+      "path": "assets/img/history/clubs/basket-asc-denain-voltaire.jpg",
+      "alt": "ASC Denain Voltaire"
+    },
+    {
+      "path": "assets/img/history/clubs/box-thai-club-joe-prestia.jpg",
+      "alt": "Club Joe Prestia"
+    },
+    {
+      "path": "assets/img/history/clubs/football-vafc-valenciennes.jpg",
+      "alt": "VAFC Valenciennes"
+    },
+    {
+      "path": "assets/img/history/clubs/handball-wallers-arenberg.jpg",
+      "alt": "Wallers Arenberg"
+    },
+    {
+      "path": "assets/img/history/clubs/mongolfiades-valenciennes-dynamite.jpg",
+      "alt": "Valenciennes Dynamite"
+    }
+  ]
+}

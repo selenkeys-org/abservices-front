@@ -1,0 +1,140 @@
+{% extends "templates/base.twig" %} {% block content %}
+    <section class="hero">
+        <div class="hero-slider" style="z-index: -1">
+            <div class="hero-slides lazyload" data-bg="assets/img/sliders/home/prestataire-services.jpg">
+                <div class="company-slogan"><h1 class="title">A<span>.</span>B<span>.</span> SERVICES</h1>
+                    <p class="slogan">{{ data.slogan_abs }}</p></div>
+            </div>
+            <div class="hero-slides lazyload" data-bg="assets/img/sliders/home/agent-securite.jpg">
+                <div class="company-slogan"><h1 class="title">G<span>.</span>B<span>.</span> SECURITE</h1>
+                    <p class="slogan">{{ data.slogan_gbs }}</p></div>
+            </div>
+            <div class="hero-slides lazyload" data-bg="assets/img/sliders/home/agents-entretien.jpg">
+                <div class="company-slogan"><h1 class="title">E<span>.</span>N<span>.</span> SERVICES</h1>
+                    <p class="slogan">{{ data.slogan_ens }}</p></div>
+            </div>
+            <div class="hero-slides lazyload" data-bg="assets/img/sliders/home/chef-cuisinier.jpg">
+                <div class="company-slogan"><h1 class="title">H<span>.</span>R<span>.</span> SERVICES</h1>
+                    <p class="slogan">{{ data.slogan_hrs }}</p></div>
+            </div>
+            <div class="hero-slides lazyload" data-bg="assets/img/sliders/home/agent-maintenance.jpg">
+                <div class="company-slogan"><h1 class="title">E<span>.</span>M<span>.</span> SERVICES</h1>
+                    <p class="slogan">{{ data.slogan_ems }}</p></div>
+            </div>
+        </div>
+    </section>
+    <div class="black-separator"></div>
+    <section class="filiales">
+        <div class="presentation"><h1>NOS FILIALES</h1>
+            <p>{{ data.subsidiaries }}</p></div>
+        <div class="filiales-logos grid-4-small-2 has-gutter-xl">
+            <div class="flex-center"><img data-sizes="auto" class="lazyload" data-src="assets/img/logos/gbs-logo.png"
+                                          alt="gbs logo" onclick="location.href='https://myurl'"></div>
+            <div class="flex-center"><img class="lazyload" data-src="assets/img/logos/ens-logo.png" alt="ens logo"
+                                          onclick="location.href='https://myurl'"></div>
+            <div class="flex-center"><img class="lazyload" data-src="assets/img/logos/hrs-logo.png" alt="hrs logo"
+                                          onclick="location.href='https://myurl'"></div>
+            <div class="flex-center"><img class="lazyload" data-src="assets/img/logos/ems-logo.png" alt="ems logo"
+                                          onclick="location.href='https://myurl'"></div>
+        </div>
+    </section>
+    <div class="blue-separator"></div>
+    <section class="values flex-center lazyload" data-bg="assets/img/backgrounds/handshake.jpg">
+        <div class="grid-2-small-1 has-gutter-xl container">
+            <div class="full"><h1>{{ data.values_title }}</h1></div>
+            <div class="flex-center presentation">
+                <div> {% for presentation in data.values_presentations %} <p>{{ presentation }}</p> {% endfor %} </div>
+            </div>
+            <div class="values-list">
+                <div><h2>NOS VALEURS</h2>
+                    <p>{{ data.values_list_presentation }}</p></div> {% for value in data.values %}
+                    <div><h3>{{ value.name }}</h3>
+                        <p>{{ value.description }}</p></div> {% endfor %} </div>
+        </div>
+    </section>
+    <div class="grey-separator"></div>
+    <section class="why clearfix">
+        <div class="why-left">
+            <div class="presentation flex-center">
+                <div><h1>POURQUOI NOUS CHOISIR ?</h1> {% for presentation in data.why_presentation %}
+                        <p>{{ presentation }}</p> {% endfor %} </div>
+            </div>
+            <div class="reasons flex-center">
+                <div class="grid-2-small-2 has-gutter-l"> {% for reason in data.reasons %}
+                        <div class="reason"><h3>{{ reason.designation }}</h3>
+                            <p>{{ reason.description }}</p></div> {% endfor %} </div>
+            </div>
+        </div>
+        <div class="why-right lazyload" data-bg="assets/img/why/woman-multitasking.jpg"></div>
+    </section>
+    <div class="black-separator"></div>
+    <section class="stats flex-center">
+        <div class="container">
+            <div class="grid-4-small-2 has-gutter-xl">
+                <div class="stat">
+                    <div class="ko-progress-circle" data-progress="0">
+                        <div class="ko-circle">
+                            <div class="full ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                            </div>
+                            <div class="ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                                <div class="ko-progress-circle__fill ko-progress-circle__bar"></div>
+                            </div>
+                        </div>
+                        <div class="ko-progress-circle__overlay flex-center"><i class="icons icon-users"></i></div>
+                    </div>
+                    <div><span class="count" id="collabs-number">15</span><br><span
+                                class="description">COLLABORATEURS</span></div>
+                </div>
+                <div class="stat">
+                    <div class="ko-progress-circle" data-progress="0">
+                        <div class="ko-circle">
+                            <div class="full ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                            </div>
+                            <div class="ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                                <div class="ko-progress-circle__fill ko-progress-circle__bar"></div>
+                            </div>
+                        </div>
+                        <div class="ko-progress-circle__overlay flex-center"><i class="icons icon-clock"></i></div>
+                    </div>
+                    <div><span class="count" id="since-number">1991</span><br><span class="description">DEPUIS</span>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="ko-progress-circle" data-progress="0">
+                        <div class="ko-circle">
+                            <div class="full ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                            </div>
+                            <div class="ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                                <div class="ko-progress-circle__fill ko-progress-circle__bar"></div>
+                            </div>
+                        </div>
+                        <div class="ko-progress-circle__overlay flex-center"><i class="icons icon-thumbs-up"></i></div>
+                    </div>
+                    <div><span class="count" id="customers-number">25</span><br><span class="description">CLIENTS SATISFAITS</span>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="ko-progress-circle" data-progress="0">
+                        <div class="ko-circle">
+                            <div class="full ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                            </div>
+                            <div class="ko-progress-circle__slice">
+                                <div class="ko-progress-circle__fill"></div>
+                                <div class="ko-progress-circle__fill ko-progress-circle__bar"></div>
+                            </div>
+                        </div>
+                        <div class="ko-progress-circle__overlay flex-center"><i class="icons icon-chart-bar"></i></div>
+                    </div>
+                    <div><span class="count" id="visitors-number">15</span><br><span class="description">NOMBRE DE VISITES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> {% endblock %}

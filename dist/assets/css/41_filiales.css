@@ -1,0 +1,71 @@
+/**
+ * A mixin which helps you to add depth to elements according to the Google Material Design spec:
+ * http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality
+ *
+ * Please note that the values given in the specification cannot be used as is. To create the same visual experience
+ * the blur parameter has to be doubled.
+ *
+ * Adapted from a LESS version at https://medium.com/@Florian/freebie-google-material-design-shadow-helper-2a0501295a2d
+ *
+ * Original Author: Florian Kutschera (@gefangenimnetz), Conceptboard GmbH (@conceptboardapp)
+ *
+ * Example usage:
+ *
+.card {
+  width: 95px;
+  height: 95px;
+  background: #f4f4f4;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  @include shadow(1);
+  &:hover, &:focus {
+    @include shadow(3);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+   }
+  &:active {
+    @include shadow(2);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+}
+*/
+.filiales .presentation {
+  min-height: 100%;
+  padding: 10% 22%;
+  background: #f2f2f1; }
+  @media screen and (max-width: 768px) {
+    .filiales .presentation {
+      padding: 8% 12%; } }
+  @media screen and (max-width: 425px) {
+    .filiales .presentation {
+      padding: 5%; } }
+  .filiales .presentation h1 {
+    margin-top: 0; }
+  .filiales .presentation p {
+    color: #999999; }
+
+.filiales .filiales-logos {
+  padding: 10% 20%; }
+  @media screen and (max-width: 768px) {
+    .filiales .filiales-logos {
+      padding: 8% 12%; } }
+  @media screen and (max-width: 425px) {
+    .filiales .filiales-logos {
+      padding: 5%; } }
+  .filiales .filiales-logos img {
+    margin-top: 10%;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out; }
+  .filiales .filiales-logos img:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    z-index: 3000; }
+
+/*# sourceMappingURL=41_filiales.css.map */
