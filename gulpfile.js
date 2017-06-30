@@ -199,14 +199,14 @@ gulp.task('serve:dev', function () {
 gulp.task('dev:sequence', function () {
     const runSequence = require('run-sequence');
     return runSequence(
-        //'dev:vendor',
-        //'third:register',
-        //'css:dev',
-        'js:dev'
-        //'img:min:dev',
-        //'img:ico:dev',
-        //'twig:dev'
-        //'serve:dev'
+        'dev:vendor',
+        'third:register',
+        'css:dev',
+        'js:dev',
+        'img:min:dev',
+        'img:ico:dev',
+        'twig:dev',
+        'serve:dev'
     );
 });
 
